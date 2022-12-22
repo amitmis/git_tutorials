@@ -1,0 +1,36 @@
+Postgres
+Postgres comes with default user: postgres with superadmin priveleges
+
+We need to create the database and make changes in the setting file
+
+git restore --staged file_name  # this is used to remove from the staging area i.e similar to unadding the file
+
+git reset commit_hash_id # this will remove all the commits after this commit id, i.e file content will remain same just they will be uncommitted basically it unstaged
+
+git stash  # this will unadd and uncommit the file, remove the file from the staging are, it will change the content of the file
+
+git stash pop # this will bring back those changes and are ready for commit and add
+
+git remote add origin url # this will add the new url, origin is the name of this url
+
+git remote -v # this will list all the url attached to the folder
+
+git push origin master # this will add files in orgin url and master branch
+
+# Blog to fix gitgub authentication issue
+https://levelup.gitconnected.com/fix-password-authentication-github-3395e579ce74
+
+git branch branch_name # this will create new branch
+
+fork # it is used to create the copy of the project on your own account
+
+git checkout branch_name # the head will come to the new branch
+
+git fetch --all --prune # fetch all commits i.e. from all branches and prune means those deleted will also be fetched
+
+git pull upstream main # it pulls all the changes from main branch
+
+git rebase -i commit_hash # i for interactive mode this will combine multiple commits into one.
+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
+
+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
